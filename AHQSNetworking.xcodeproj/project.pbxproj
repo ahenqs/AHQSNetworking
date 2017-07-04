@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B75996011F0B8D300021B8C9 /* AHQSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996071F0B8D3F0021B8C9 /* APIError.swift */; };
+		B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996081F0B8D3F0021B8C9 /* Result.swift */; };
+		B759960F1F0B8D3F0021B8C9 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996091F0B8D3F0021B8C9 /* JSONDownloader.swift */; };
+		B75996101F0B8D3F0021B8C9 /* Gettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759960A1F0B8D3F0021B8C9 /* Gettable.swift */; };
+		B75996111F0B8D3F0021B8C9 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759960B1F0B8D3F0021B8C9 /* UIImageExtension.swift */; };
+		B75996121F0B8D3F0021B8C9 /* NetworkLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759960C1F0B8D3F0021B8C9 /* NetworkLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B75995FC1F0B8D300021B8C9 /* AHQSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHQSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHQSNetworking.h; sourceTree = "<group>"; };
 		B75996001F0B8D300021B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75996071F0B8D3F0021B8C9 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B75996081F0B8D3F0021B8C9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B75996091F0B8D3F0021B8C9 /* JSONDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
+		B759960A1F0B8D3F0021B8C9 /* Gettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gettable.swift; sourceTree = "<group>"; };
+		B759960B1F0B8D3F0021B8C9 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		B759960C1F0B8D3F0021B8C9 /* NetworkLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,12 @@
 		B75995FE1F0B8D300021B8C9 /* AHQSNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				B75996071F0B8D3F0021B8C9 /* APIError.swift */,
+				B75996081F0B8D3F0021B8C9 /* Result.swift */,
+				B75996091F0B8D3F0021B8C9 /* JSONDownloader.swift */,
+				B759960A1F0B8D3F0021B8C9 /* Gettable.swift */,
+				B759960B1F0B8D3F0021B8C9 /* UIImageExtension.swift */,
+				B759960C1F0B8D3F0021B8C9 /* NetworkLoading.swift */,
 				B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */,
 				B75996001F0B8D300021B8C9 /* Info.plist */,
 			);
@@ -96,6 +114,7 @@
 					B75995FB1F0B8D300021B8C9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6X6HFEJA72;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B759960F1F0B8D3F0021B8C9 /* JSONDownloader.swift in Sources */,
+				B75996101F0B8D3F0021B8C9 /* Gettable.swift in Sources */,
+				B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */,
+				B75996111F0B8D3F0021B8C9 /* UIImageExtension.swift in Sources */,
+				B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */,
+				B75996121F0B8D3F0021B8C9 /* NetworkLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -242,6 +267,7 @@
 		B75996051F0B8D300021B8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6X6HFEJA72;
@@ -254,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.AHQSNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +288,7 @@
 		B75996061F0B8D300021B8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6X6HFEJA72;
