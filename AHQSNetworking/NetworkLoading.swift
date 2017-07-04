@@ -8,21 +8,21 @@
 
 import UIKit
 
-class NetworkLoading {
+public class NetworkLoading {
     
-    static let shared = NetworkLoading()
+    public static let shared = NetworkLoading()
     
     private init() {}
     
-    var count: Int = 0
+    public var count: Int = 0
     
-    func start() {
+    public func start() {
         count += 1
         
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
     }
     
-    func stop() {
+    public func stop() {
         count -= 1
         
         if count <= 0 {

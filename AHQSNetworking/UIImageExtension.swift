@@ -8,17 +8,17 @@
 
 import UIKit
 
-protocol Cachable {}
+public protocol Cachable {}
 
 private  let imageCache = NSCache<NSString, UIImage>()
 
 extension UIImageView: Cachable {}
 
-extension Cachable where Self: UIImageView {
+public extension Cachable where Self: UIImageView {
     
-    typealias SuccessCompletion = (Bool) -> ()
+    public typealias SuccessCompletion = (Bool) -> ()
     
-    func loadImageUsingCacheWithURLString(_ URLString: String, placeHolder: UIImage?, completion: @escaping SuccessCompletion) {
+    public func loadImageUsingCacheWithURLString(_ URLString: String, placeHolder: UIImage?, completion: @escaping SuccessCompletion) {
         
         self.image = nil
         

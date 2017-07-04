@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Gettable {
+public protocol Gettable {
     associatedtype T
     func get(completion: @escaping (Result<T>) -> Void)
 }

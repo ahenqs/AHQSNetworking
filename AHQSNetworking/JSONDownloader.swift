@@ -8,22 +8,22 @@
 
 import Foundation
 
-typealias JSON = [String: Any]
-typealias JSONTaskCompletionHandler = (Result<JSON>) -> Void
+public typealias JSON = [String: Any]
+public typealias JSONTaskCompletionHandler = (Result<JSON>) -> Void
 
-struct JSONDownloader {
+public struct JSONDownloader {
     
-    let session: URLSession
+    public let session: URLSession
     
-    init(configuration: URLSessionConfiguration) {
+    public init(configuration: URLSessionConfiguration) {
         self.session = URLSession(configuration: configuration)
     }
     
-    init() {
+    public init() {
         self.init(configuration: .default)
     }
     
-    func jsonTask(with request: URLRequest, completionHandler: @escaping JSONTaskCompletionHandler) -> URLSessionDataTask {
+    public func jsonTask(with request: URLRequest, completionHandler: @escaping JSONTaskCompletionHandler) -> URLSessionDataTask {
         
         let task = session.dataTask(with: request) { (data, response, error) in
             
