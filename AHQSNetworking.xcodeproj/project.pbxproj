@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70D123E1F5456BE000A9588 /* Postable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D123D1F5456BE000A9588 /* Postable.swift */; };
 		B75996011F0B8D300021B8C9 /* AHQSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996071F0B8D3F0021B8C9 /* APIError.swift */; };
 		B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996081F0B8D3F0021B8C9 /* Result.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70D123D1F5456BE000A9588 /* Postable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Postable.swift; sourceTree = "<group>"; };
 		B75995FC1F0B8D300021B8C9 /* AHQSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHQSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHQSNetworking.h; sourceTree = "<group>"; };
 		B75996001F0B8D300021B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				B75996081F0B8D3F0021B8C9 /* Result.swift */,
 				B75996091F0B8D3F0021B8C9 /* JSONDownloader.swift */,
 				B759960A1F0B8D3F0021B8C9 /* Gettable.swift */,
+				B70D123D1F5456BE000A9588 /* Postable.swift */,
 				B759960B1F0B8D3F0021B8C9 /* UIImageExtension.swift */,
 				B759960C1F0B8D3F0021B8C9 /* NetworkLoading.swift */,
 				B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */,
@@ -154,6 +157,7 @@
 				B759960F1F0B8D3F0021B8C9 /* JSONDownloader.swift in Sources */,
 				B75996101F0B8D3F0021B8C9 /* Gettable.swift in Sources */,
 				B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */,
+				B70D123E1F5456BE000A9588 /* Postable.swift in Sources */,
 				B75996111F0B8D3F0021B8C9 /* UIImageExtension.swift in Sources */,
 				B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */,
 				B75996121F0B8D3F0021B8C9 /* NetworkLoading.swift in Sources */,
@@ -324,6 +328,7 @@
 				B75996061F0B8D300021B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
