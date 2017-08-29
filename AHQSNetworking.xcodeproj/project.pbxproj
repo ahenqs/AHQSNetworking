@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B70D123E1F5456BE000A9588 /* Postable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D123D1F5456BE000A9588 /* Postable.swift */; };
+		B7111BA11F55845600F5CA25 /* GetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7111BA01F55845600F5CA25 /* GetService.swift */; };
+		B7111BA31F55846800F5CA25 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7111BA21F55846800F5CA25 /* PostService.swift */; };
 		B75996011F0B8D300021B8C9 /* AHQSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996071F0B8D3F0021B8C9 /* APIError.swift */; };
 		B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996081F0B8D3F0021B8C9 /* Result.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		B70D123D1F5456BE000A9588 /* Postable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Postable.swift; sourceTree = "<group>"; };
+		B7111BA01F55845600F5CA25 /* GetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetService.swift; sourceTree = "<group>"; };
+		B7111BA21F55846800F5CA25 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		B75995FC1F0B8D300021B8C9 /* AHQSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHQSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHQSNetworking.h; sourceTree = "<group>"; };
 		B75996001F0B8D300021B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				B70D123D1F5456BE000A9588 /* Postable.swift */,
 				B759960B1F0B8D3F0021B8C9 /* UIImageExtension.swift */,
 				B759960C1F0B8D3F0021B8C9 /* NetworkLoading.swift */,
+				B7111BA01F55845600F5CA25 /* GetService.swift */,
+				B7111BA21F55846800F5CA25 /* PostService.swift */,
 				B75995FF1F0B8D300021B8C9 /* AHQSNetworking.h */,
 				B75996001F0B8D300021B8C9 /* Info.plist */,
 			);
@@ -158,8 +164,10 @@
 				B75996101F0B8D3F0021B8C9 /* Gettable.swift in Sources */,
 				B759960E1F0B8D3F0021B8C9 /* Result.swift in Sources */,
 				B70D123E1F5456BE000A9588 /* Postable.swift in Sources */,
+				B7111BA11F55845600F5CA25 /* GetService.swift in Sources */,
 				B75996111F0B8D3F0021B8C9 /* UIImageExtension.swift in Sources */,
 				B759960D1F0B8D3F0021B8C9 /* APIError.swift in Sources */,
+				B7111BA31F55846800F5CA25 /* PostService.swift in Sources */,
 				B75996121F0B8D3F0021B8C9 /* NetworkLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

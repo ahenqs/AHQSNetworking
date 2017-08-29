@@ -10,5 +10,5 @@ import Foundation
 
 public protocol Postable {
     associatedtype T
-    func post(dictionary: [String: Any], completion: @escaping (Result<T>) -> Void)
+    func post(data: [String: Any], completion: @escaping (Result<T>) -> Void)
 }
