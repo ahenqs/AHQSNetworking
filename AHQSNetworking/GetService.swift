@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GetService: Gettable {
+public protocol GetService: Gettable {
     
     var endPoint: String { get }
     var downloader: JSONDownloader { get }

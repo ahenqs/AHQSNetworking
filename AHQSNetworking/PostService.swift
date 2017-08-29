@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol PostService: Postable {
+public protocol PostService: Postable {
     
     var endPoint: String { get }
     var downloader: JSONDownloader { get }
@@ -18,7 +18,7 @@ protocol PostService: Postable {
     func postRequest(url: URL, data: [String: Any]) -> URLRequest
 }
 
-extension PostService {
+public extension PostService {
     
     func postRequest(url: URL, data: [String: Any]) -> URLRequest {
         
@@ -27,7 +27,6 @@ extension PostService {
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue("application/json", forHTTPHeaderField: "Accept")
-        
         
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: data, options: .prettyPrinted)
